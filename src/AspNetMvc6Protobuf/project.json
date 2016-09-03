@@ -1,4 +1,4 @@
-﻿{
+{
   "userSecretsId": "aspnet-WebApp_Auth-96d521e3-30ac-4a8f-967f-abc243174dce",
 
     "dependencies": {
@@ -16,8 +16,8 @@
         "Microsoft.Extensions.Logging": "1.0.0",
         "Microsoft.Extensions.Logging.Console": "1.0.0",
         "Microsoft.Extensions.Logging.Debug": "1.0.0",
-        "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
-        "protobuf-net": "2.0.0.668"
+      "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
+      "protobuf-net": "2.1.0"
     },
 
   "tools": {

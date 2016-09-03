@@ -11,7 +11,7 @@ namespace WebClientProtobuf
 		static void Main(string[] args)
 		{
 			// HTTP GET with Protobuf Response Body
-			var client = new HttpClient { BaseAddress = new Uri("http://localhost:14717/") };
+			var client = new HttpClient { BaseAddress = new Uri("http://localhost:8389/") };
 			client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/x-protobuf"));
 
 			HttpResponseMessage response = client.GetAsync("api/Values/4").Result; 
